@@ -5,4 +5,9 @@ class User(BaseModel):
     email : str
     password : str
     
-    
+class Employee(BaseModel):
+    name : str
+    surname :str
+    salary : int
+    department : str
+
